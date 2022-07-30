@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/dark_blue_shade_2"
+    app:cardElevation="7dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/idTVTitle"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/prompt"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snippet"
+            android:fontFamily="@font/prompt"
+            android:id="@+id/idTVSnippet"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:textAllCaps="false"
+
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:maxLines="3"
+            android:lines="3"
+            android:fontFamily="@font/prompt"
+            android:id="@+id/idTVDescription"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
